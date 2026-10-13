@@ -1,0 +1,8 @@
+{
+  "appId": "com.yourname.lisa",
+  "appName": "Lisa",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https"
+  }
+}

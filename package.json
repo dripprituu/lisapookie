@@ -1,0 +1,16 @@
+{
+  "name": "lisa",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "prep": "node prep.js",
+    "sync": "node prep.js && npx cap sync android",
+    "android": "node prep.js && npx cap sync android && npx cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.0.0",
+    "@capacitor/cli": "^6.0.0",
+    "@capacitor/core": "^6.0.0",
+    "@capacitor/local-notifications": "^6.0.0"
+  }
+}
